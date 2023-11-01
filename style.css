@@ -1,6 +1,4 @@
-
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -388,18 +386,26 @@ img{
     display: flex;
     justify-content: space-between;
     height: 300px;
+    width: 100%;
     
 }
+.usertest img{
+    height: 300px;
+    width: 100%;
+
+}
+
 
 .texthome{
     background-image: linear-gradient(to left,rgb(234, 241, 240), #fff );
-    width: 800px;
+    width: 100%;
     height: 300px;
     padding-top: 70px;
     
 }
 
 .texthome h1{
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
@@ -408,19 +414,21 @@ img{
     color:rgb(61, 60, 60);
 }
  .texthome h3{
+    width: 100%;
+
     margin-bottom: 25px;
 
     display: flex;
     justify-content: center;
-    position: relative;
     
     color:rgb(66, 66, 66);
 } 
 .texthome a{
+    width: 100%;
+
     display: flex;
     justify-content: center;
     font-size: 35px;
-    position: relative;
 
     color: #31d493;
     font-weight: 600;
@@ -717,11 +725,11 @@ img{
 }
 
 .image22 {
-    display: block;
+
     width: 100%;
-    height: 450px;
+    height: 400px;
     position: relative;
-   
+
     top: 60px;
 }
 .text {
@@ -732,9 +740,7 @@ img{
     font-weight: 600;
 }  
 .numb {
-    /* position: relative;
-    bottom: 260px;
-     left: 225px;  */
+    
     color:white;
     font-size: 70px;
     block-size: 100px;
@@ -795,7 +801,6 @@ img{
  }
  /* ------------------------------doctors-------------------------- */
  #doctors{
-    /* background-color: red; */
     display: flex;
     justify-content: center;
  }
@@ -805,10 +810,7 @@ img{
     padding: 40px 15px;
     background-color: #ffffff;
     position: relative;
-    /* left: 130px; */
     bottom: 100px;
-   
-    /* top: 80px; */
    
     
 }
@@ -1227,6 +1229,12 @@ footer .logg{
   */
 
   @media screen and (max-width: 1000px) {
+    body{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
     .topnav ul li a{
         display: none;
     }
@@ -1238,26 +1246,29 @@ footer .logg{
       top: 40px;
     
     }
-    .topnav.responsive {position: relative;
+    .topnav.responsive {
+        /* position: relative; */
     }
     .topnav.responsive ul li .icon {
-      position: fixed;
+      /* position: fixed;
       right: 50px;
-      top: 40px;
+      top: 40px; */
     }
     .topnav.responsive ul li a {
       float: left;
       display: block;
-      text-align: sleft;
+      text-align: left;
     }
     .topnav.responsive ul li{
         display: block;
     }
     nav .logo  {
-        display: inline;
-        width: 350px;
+        
+        width: 0px;
         position: relative;
-        right: 20px;
+        right: 0px;
+        left: 0px;
+
     } 
     nav .logo a{
         font-size: 25px;
@@ -1285,18 +1296,18 @@ footer .logg{
    
 }
 .aboutandcontact{
-    /* background-color: #31d493; */
     width: 70%;
     height: 100px;
     position: relative;
     bottom: 400px;
-    left: 75px;
+    left: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .aboutandcontact button.buttn1{
-    width: 160px;
+    width: 100px;
     height: 60px;
     background-color: #ffffff ;
     color:#31d493;
@@ -1315,7 +1326,7 @@ footer .logg{
     color:#ffffff;
 }
 .aboutandcontact button.buttn2{
-    width: 160px;
+    width: 100px;
     height: 60px;
     color: #ffffff ;
     background-color:#31d493;
@@ -1594,6 +1605,8 @@ footer .logg{
  /* ------------------------------doctors-------------------------- */
  #doctors{
     display: block;
+    width: 100%;
+
  }
  .ourdoctors{
     width: 100%;
@@ -1601,10 +1614,7 @@ footer .logg{
     padding-top: 40px;
     background-color: #ffffff;
     position: relative;
-    /* left: 130px; */
     bottom: 0px;
-   
-    /* top: 80px; */
    
     
 }
@@ -1630,7 +1640,7 @@ footer .logg{
 
 }
 .doctor{
-    width: 480px;
+    width: 100%;
     margin-top: 30px;
 }
 
@@ -1640,7 +1650,7 @@ footer .logg{
 
 
 .ourdoctors img{
-    width: 180px;
+    width: 100px;
     height: 175px;
     border-radius: 50%;
     position: relative;
@@ -1648,7 +1658,7 @@ footer .logg{
     left: 0px;
 }
 .wordss{
-    width: 300px;
+    width: 100%;
     position: relative;
     left: 20px;
     top:20px; 
