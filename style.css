@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -1233,17 +1234,42 @@ footer .logg{
         width: 100%;
     }
     nav{
-        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        /* margin: auto; */
+        padding: 20px 0px;
+        z-index: 2000;
+          
     }
+    
+    nav ul li{
+        padding-top: 15px;
+        margin: 0px 0px;
+        position: relative;
+        right: 80px;
+    }
+    nav ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 15px;
+        /* font-weight:500; */
+    }
+    .topnav ul li .icon {
+        display: none;
+      }
+  
     .topnav ul li a{
         display: none;
     }
     .topnav ul li a.icon {
-      float: right;
-      display: block;
-      position: fixed;
-      right: 50px;
-      top: 40px;
+      /* float: right; */
+      display: flex;
+      position:relative;
+      right: 110px;
+      top: 0px;
     
     }
     .topnav.responsive {
@@ -1363,7 +1389,7 @@ footer .logg{
     width: 100%;
     position: relative;
     left: 0px; 
-    height:1000px ;
+    height:fit-content ;
 
 }
 
